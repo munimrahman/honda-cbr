@@ -29,3 +29,30 @@ header{
 .grayscale-image{
     filter: grayscale(100%);
 }
+.text-color{
+    color: #E76F51;
+}
+.review-text{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+.client-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+.client-position{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.rating{
+    color: #E77C40;
+}
