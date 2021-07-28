@@ -1,0 +1,28 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif; */
+header{
+    background: #264653;
+    color: #FFFFFF;
+}
+.p-before-h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.hero-h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.p-after-h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #E0E0E0;
+}
+.dotted-bg{
+    background-image: url(images/bg-dot.png);
+    background-repeat: no-repeat;
+    background-position: 437px 44px;
+}
