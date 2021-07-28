@@ -26,10 +26,26 @@ header{
     background-repeat: no-repeat;
     background-position: 437px 44px;
 }
+.section-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #E76F51;
+}
+hr{
+    width: 60px;
+    color: #E76F51;
+    border: 1px solid #E76F51;
+}
 .grayscale-image{
     filter: grayscale(100%);
 }
-.text-color{
+.span-text-color{
     color: #E76F51;
 }
 .review-text{
@@ -55,4 +71,21 @@ header{
 }
 .rating{
     color: #E77C40;
+}
+.accordion-it{
+    border: 1px solid #D5E5FB;
+    border-radius: 5px;
+}
+.accordion-question{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #383838;
+}
+.accordion-ans{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7E848C;
 }
