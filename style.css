@@ -26,3 +26,6 @@ header{
     background-repeat: no-repeat;
     background-position: 437px 44px;
 }
+.grayscale-image{
+    filter: grayscale(100%);
+}
