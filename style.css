@@ -116,3 +116,9 @@ hr{
 .card-footer-custom button:hover{
     background-position: left;
 }
+.footer-bg-color{
+    background-color: black;
+}
+footer a, p, h4{
+    font-family: 'Manrope', sans-serif;
+}
