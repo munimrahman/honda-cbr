@@ -9,7 +9,8 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/e6ec33161e.js" crossorigin="anonymous"></script>
@@ -28,11 +29,47 @@
             <div class="col-12 col-md-6 my-5">
                 <p class="p-before-h1">Computer-controlled digital transistorized with electronic advance</p>
                 <h1 class="my-3 hero-h1">Honda CBR 300R</h1>
-                <p class="col-11 p-after-h1 my-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <p class="col-11 p-after-h1 my-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                    amet.</p>
                 <!-- Button Modal -->
-                <button type="button" class="btn btn-danger px-5 shadow-none">Purchase</button>
+                <button type="button" class="btn button px-5 shadow-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Purchase
+                </button>
+
                 <!-- Modal -->
-                
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Welcome! Please Login to continue.</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div>
+                                    <form>
+                                        <div class="mb-3">
+                                          <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                          <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                        </div>
+                                        <button type="submit" class="btn button">Submit</button>
+                                      </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-12 col-md-6 my-5 dotted-bg">
                 <img class="w-100" src="images/header-bike.png" alt="">
@@ -67,71 +104,72 @@
             <div>
                 <div class="row row-cols-1 row-cols-md-3 g-5">
                     <div class="col">
-                      <div class="card h-100 d-flex align-items-center">
-                        <img src="images/user-1.png" class="w-50 mt-5 mb-4" alt="...">
-                        <div class="text-center col-10">
-                          <p class="review-text">Slate helps you see how 
-                            many more days you need 
-                            to work to reach your financial 
-                            goal for the month and year.</p>
-                            <div class="mb-4">
-                                <i class="fas fa-star rating"></i>
-                                <i class="fas fa-star rating"></i>
-                                <i class="fas fa-star rating"></i>
-                                <i class="fas fa-star rating"></i>
-                                <i class="far fa-star rating"></i>
+                        <div class="card h-100 d-flex align-items-center">
+                            <img src="images/user-1.png" class="w-50 mt-5 mb-4" alt="...">
+                            <div class="text-center col-10">
+                                <p class="review-text">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                                <div class="mb-4">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="far fa-star rating"></i>
+                                </div>
+                                <p class="client-name">Regina Miles</p>
+                                <p class="client-position">Banker</p>
                             </div>
-                            <p class="client-name">Regina Miles</p>
-                            <p class="client-position">Banker</p>
                         </div>
-                      </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 d-flex align-items-center">
-                          <img src="images/user-2.png" class="w-50 mt-5 mb-4" alt="...">
-                          <div class="text-center col-10">
-                            <p class="review-text">Slate helps you see how 
-                              many more days you need 
-                              to work to reach your financial 
-                              goal for the month and year.</p>
-                              <div class="mb-4">
-                                  <i class="fas fa-star rating"></i>
-                                  <i class="fas fa-star rating"></i>
-                                  <i class="fas fa-star rating"></i>
-                                  <i class="fas fa-star rating"></i>
-                                  <i class="far fa-star rating"></i>
-                              </div>
-                              <p class="client-name">Regina Miles</p>
-                              <p class="client-position">Banker</p>
-                          </div>
+                            <img src="images/user-2.png" class="w-50 mt-5 mb-4" alt="...">
+                            <div class="text-center col-10">
+                                <p class="review-text">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                                <div class="mb-4">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="far fa-star rating"></i>
+                                </div>
+                                <p class="client-name">Regina Miles</p>
+                                <p class="client-position">Banker</p>
+                            </div>
                         </div>
-                      </div>
-                      <div class="col">
+                    </div>
+                    <div class="col">
                         <div class="card h-100 d-flex align-items-center">
-                          <img src="images/user-3.png" class="w-50 mt-5 mb-4" alt="...">
-                          <div class="text-center col-10">
-                            <p class="review-text">Slate helps you see how 
-                              many more days you need 
-                              to work to reach your financial 
-                              goal for the month and year.</p>
-                              <div class="mb-4">
-                                  <i class="fas fa-star rating"></i>
-                                  <i class="fas fa-star rating"></i>
-                                  <i class="fas fa-star rating"></i>
-                                  <i class="fas fa-star rating"></i>
-                                  <i class="far fa-star rating"></i>
-                              </div>
-                              <p class="client-name">Regina Miles</p>
-                              <p class="client-position">Banker</p>
-                          </div>
+                            <img src="images/user-3.png" class="w-50 mt-5 mb-4" alt="...">
+                            <div class="text-center col-10">
+                                <p class="review-text">Slate helps you see how
+                                    many more days you need
+                                    to work to reach your financial
+                                    goal for the month and year.</p>
+                                <div class="mb-4">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="far fa-star rating"></i>
+                                </div>
+                                <p class="client-name">Regina Miles</p>
+                                <p class="client-position">Banker</p>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- FAQ Section Starts -->
         <section class="py-5">
-            <h2 class="text-center mb-4 section-title">Frequently Asked <span class="span-text-color">Questions</span> </h2>
+            <h2 class="text-center mb-4 section-title">Frequently Asked <span class="span-text-color">Questions</span>
+            </h2>
             <div class="row d-flex align-items-center py-5">
                 <div class="col-12 col-md-6 text-center mb-5">
                     <img class="w-75" src="images/faq.png" alt="">
@@ -139,54 +177,75 @@
                 <div class="col-12 col-md-6 mb-5">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-it my-3">
-                          <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button shadow-none accordion-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What are the most important things I should
-                                know about riding a bike?
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body accordion-ans">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button shadow-none accordion-question" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    What are the most important things I should
+                                    know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-ans">Safety First! Always obey the rules of the
+                                    road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving”
+                                    your bike—not just “riding” your bike. This will help you be a more focused and
+                                    legally compliant bike rider.
+                                </div>
                             </div>
-                          </div>
                         </div>
-                        <div class="accordion-it my-3";">
+                        <div class="accordion-it my-3" ;">
                             <h2 class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed shadow-none accordion-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                How can I tell if my helmet is old and I need a new one?
-                              </button>
+                                <button class="accordion-button collapsed shadow-none accordion-question" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    How can I tell if my helmet is old and I need a new one?
+                                </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                              <div class="accordion-body accordion-ans">
-                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
-                              </div>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-ans">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider.
+                                </div>
                             </div>
-                          </div>
-                          <div class="accordion-it my-3">
+                        </div>
+                        <div class="accordion-it my-3">
                             <h2 class="accordion-header" id="headingThree">
-                              <button class="accordion-button collapsed shadow-none accordion-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                My bike has been in storage is it safe to ride?
-                              </button>
+                                <button class="accordion-button collapsed shadow-none accordion-question" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                              <div class="accordion-body accordion-ans">
-                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
-                              </div>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-ans">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider.
+                                </div>
                             </div>
-                          </div>
-                          <div class="accordion-it my-3">
+                        </div>
+                        <div class="accordion-it my-3">
                             <h2 class="accordion-header" id="headingFour">
-                              <button class="accordion-button collapsed shadow-none accordion-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                What rules should I follow when riding my bike?
-                              </button>
+                                <button class="accordion-button collapsed shadow-none accordion-question" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    What rules should I follow when riding my bike?
+                                </button>
                             </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                              <div class="accordion-body accordion-ans">
-                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
-                              </div>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-ans">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider.
+                                </div>
                             </div>
-                          </div>
-                    </div>    
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
